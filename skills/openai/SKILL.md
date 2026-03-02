@@ -1,6 +1,6 @@
 ---
 name: appdeploy
-description: Deploy web apps with backend APIs, database, and file storage to a public URL. Use when the user asks to deploy, publish, or host a website or web app. No account required. Uses HTTP API via curl.
+description: Deploy web apps with backend APIs, database, file storage, AI operations, authentication, realtime, and cron jobs to a public URL. Use when the user asks to deploy, publish, or host a website or web app. No account required. Uses HTTP API via curl.
 ---
 
 # AppDeploy Skill
@@ -117,6 +117,7 @@ Use this when deploy_app tool call returns or when the user asks to check the de
 **Parameters:**
   - `app_id`: string (required) - Target app id
   - `since`: integer (optional) - Optional timestamp in epoch milliseconds to filter errors. When provided, returns only errors since that timestamp.
+  - `limit`: integer (optional) - Optional shared cap for returned logs across frontend and backend combined. Defaults to 50 when omitted.
 
 ### delete_app
 
