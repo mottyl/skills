@@ -1,0 +1,7 @@
+interface:
+  display_name: "AppDeploy"
+  short_description: "Describe what you want. Codex writes the code. AppDeploy makes it live."
+  icon_small: "./assets/appdeploy-small.png"
+  icon_large: "./assets/appdeploy-large.png"
+  brand_color: "#1687C9"
+  default_prompt: "Use $appdeploy to publish an Hello World global counter web app with an increment button that auto refreshes across users."
