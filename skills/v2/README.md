@@ -6,7 +6,13 @@ This folder contains the AppDeploy v2 Codex skill package at [`appdeploy/`](./ap
 
 Public GitHub installs do not require a GitHub account.
 
-Install with Codex from:
+Use the dedicated install guide:
+
+```text
+https://raw.githubusercontent.com/AppDeploy-AI/skills/main/skills/v2/INSTALL.md
+```
+
+Or install with Codex from:
 
 ```text
 https://github.com/AppDeploy-AI/skills/tree/main/skills/v2/appdeploy
